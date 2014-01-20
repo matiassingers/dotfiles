@@ -1,10 +1,10 @@
 # Matias Singers' dotfiles
 
 ## Installation
+A lot of different tools are required for the initial setup, I should make all of this 1 script to run - but for now the following commands are needed:
 
 ### Command Line Tools
-> for 10.9 Mavericks
-
+Install them like this:
 ```bash
 xcode-select --install
 ```
@@ -17,6 +17,7 @@ agree
 ```
 
 ### Homebrew
+Also known as the "the missing package manager for OS X" [Homebrew](http://brew.sh/) is essential for a lot of the next operations
 ```bash
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew doctor
@@ -35,7 +36,7 @@ homesick clone matiassingers/dotfiles
 
 With the castle cloned, you can now link its contents into your home dir:
 ```bash
-homesick symlink pickled-vim
+homesick symlink dotfiles
 ```
 
 ### Install Homebrew formulae
