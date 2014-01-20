@@ -94,11 +94,20 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
+# Finder: show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# Finder sidebar width
+defaults write com.apple.finder FK_SidebarWidth -int 200
+
+# Default Sidebar order
+defaults write com.apple.finder SidebarZoneOrder1 -array "devices" "favorites" "shared" "media_browser" "tags"
 
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
@@ -122,11 +131,11 @@ chflags nohidden ~/Library
 
 # Expand the following File Info panes:
 # "General", "Open with", and "Sharing & Permissions"
-# todo
-# defaults write com.apple.finder FXInfoPanesExpanded -dict \
-#    General -bool true \
-#    OpenWith -bool true \
-#    Privileges -bool true
+defaults write com.apple.finder FXInfoPanesExpanded -dict \
+    General -bool true \
+    MetaData -bool  true \
+    OpenWith -bool true \
+    Privileges -bool true
 
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
