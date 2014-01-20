@@ -316,6 +316,23 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 ###############################################################################
+# BetterSnapTool                                                              #
+###############################################################################
+
+defaults write com.hegenberg.BetterSnapTool launchOnStartup -bool true
+defaults write com.hegenberg.BetterSnapTool BSTDidClickHighlightedMenuItem -bool true
+defaults write com.hegenberg.BetterSnapTool BSTDidUnhideLoginItem -bool true
+defaults write com.hegenberg.BetterSnapTool controlMove -bool true
+defaults write com.hegenberg.BetterSnapTool optMove -bool false
+defaults write com.hegenberg.BetterSnapTool previewAnimated -bool false
+defaults write com.hegenberg.BetterSnapTool previewAnimationDuration -float 0.075
+defaults write com.hegenberg.BetterSnapTool previewBorderWidth -float 3.5
+defaults write com.hegenberg.BetterSnapTool nextMonitorMoveWarningShowed -bool false
+defaults write com.hegenberg.BetterSnapTool BSTTitlebarDoubleclick -int 0
+defaults write com.hegenberg.BetterSnapTool BSTCornerRoundness -float 5.5
+defaults write com.hegenberg.BetterSnapTool recognitionArea -float 7.5
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
