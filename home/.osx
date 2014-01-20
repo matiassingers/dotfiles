@@ -39,6 +39,24 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
+# Set the default Menubar icons
+defaults write com.apple.systemuiserver menuExtras -array \
+    "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+    "/System/Library/CoreServices/Menu Extras/Airport.menu" \
+    "/System/Library/CoreServices/Menu Extras/Battery.menu" \
+    "/System/Library/CoreServices/Menu Extras/Clock.menu"
+defaults -currentHost write com.apple.systemuiserver dontAutoLoad -array \
+    "/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
+    "/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+# Show percentage for the battery in the menubar
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
+# Only display the time in the clock, no day nor seconds
+defaults write com.apple.menuextra.clock DateFormat -string "HH:mm"
+defaults write com.apple.menuextra.clock FlashDateSeparators -bool false
+defaults write com.apple.menuextra.clock IsAnalog -bool false
+
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
