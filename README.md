@@ -2,6 +2,26 @@
 
 ## Installation
 
+### Command Line Tools
+> for 10.9 Mavericks
+
+```bash
+xcode-select --install
+```
+
+To accept the terms of the Command Line Tools, run a command like:
+```bash
+sudo git
+q
+agree
+```
+
+### Homebrew
+```bash
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew doctor
+```
+
 ### Homesick
 To get started, install [homesick](https://github.com/technicalpickles/homesick) first:
 ```bash
