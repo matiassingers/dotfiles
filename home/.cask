@@ -8,6 +8,7 @@ function installcask() {
 
 installcask dropbox
 installcask onepassword
+installcask alfred
 installcask google-chrome
 installcask google-chrome-canary
 installcask imageoptim
