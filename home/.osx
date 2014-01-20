@@ -301,6 +301,11 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 defaults write com.google.Chrome ExtensionInstallSources -array "https://*.github.com/*" "http://userscripts.org/*"
 defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://*.github.com/*" "http://userscripts.org/*"
 
+# Change default "Bookmark This Page" keyboard shortcut from ⌘ + D to ⌂ + ⌘ + D
+# Pinboard extension should use the default ⌘ + D
+defaults write com.google.Chrome NSUserKeyEquivalents -dict-add "Bookmark This Page..." -string "@$d"
+defaults write com.google.Chrome.canary NSUserKeyEquivalents -dict-add "Bookmark This Page..." -string "@$d"
+
 ###############################################################################
 # Sublime Text                                                                #
 ###############################################################################
