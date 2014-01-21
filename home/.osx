@@ -17,6 +17,7 @@ sudo pmset -b disksleep 10
 sudo pmset -b sleep 10
 sudo pmset -a darkwakes 1
 sudo pmset -c standbydelay 86400
+sudo pmset -c displaysleep 15
 
 # Menu bar: disable transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
