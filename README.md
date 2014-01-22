@@ -26,6 +26,7 @@ brew doctor
 ### Homesick
 To get started, install [homesick](https://github.com/technicalpickles/homesick) first:
 ```bash
+gem update --system
 gem install homesick
 ```
 
@@ -55,20 +56,19 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 ./.cask
 ```
 
-### Install NVM
-
-Using [NVM](https://github.com/creationix/nvm) for managing the Node versions:
-
-```bash
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-```
-
 ### Sensible OS X defaults
 
 When setting up a new Mac, you may want to set some sensible OS X defaults:
 
 ```bash
 ./.osx
+```
+
+### Setup development environment
+Installs different version of [NodeJS](http://nodejs.org/), required NPM packages, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/)
+
+```bash
+./.dev
 ```
 
 ## Todo
