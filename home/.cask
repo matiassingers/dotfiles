@@ -22,3 +22,5 @@ installcask transmission
 installcask sourcetree
 installcask vlc
 installcask rescuetime
+installcask instacast
+installcask steam
