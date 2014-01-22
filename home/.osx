@@ -285,8 +285,40 @@ sudo mdutil -E / > /dev/null
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
+# Install pretty iTerm colors
+open "${HOME}/.homesick/dotfiles/init/iTerm.itermcolors"
+
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+defaults write com.googlecode.iterm2 DimInactiveSplitPanes -bool true
+defaults write com.googlecode.iterm2 HideMenuBarInFullscreen -bool true
+defaults write com.googlecode.iterm2 HideTab -bool true
+defaults write com.googlecode.iterm2 UseBorder -bool false
+defaults write com.googlecode.iterm2 WindowStyle -int 0
+defaults write com.googlecode.iterm2 HideActivityIndicator -bool true
+defaults write com.googlecode.iterm2 WindowNumber -bool true
+defaults write com.googlecode.iterm2 TripleClickSelectsFullWrappedLines -bool true
+defaults write com.googlecode.iterm2 DimOnlyText -bool true
+defaults write com.googlecode.iterm2 DisableFullscreenTransparency -bool false
+defaults write com.googlecode.iterm2 ShowPaneTitles -bool false
+defaults write com.googlecode.iterm2 HighlightTabLabels -bool false
+defaults write com.googlecode.iterm2 PromptOnClose -bool true
+defaults write com.googlecode.iterm2 SplitPaneDimmingAmount -number 0,4
+defaults write com.googlecode.iterm2 FsTabDelay -number 0,9
+defaults write com.googlecode.iterm2 DimBackgroundWindows -bool true
+defaults write com.googlecode.iterm2 OpenArrangementAtStartup -bool true
+defaults write com.googlecode.iterm2 UseLionStyleFullscreen -bool false
+
+# Focus follows the mouse in the window
+defaults write com.googlecode.iterm2 FocusFollowsMouse -bool false
+
+###############################################################################
+# Sublime Text                                                                #
+###############################################################################
+
+# Install Sublime Text settings
+cp -r ${HOME}/.homesick/dotfiles/init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 ###############################################################################
 # Time Machine                                                                #
