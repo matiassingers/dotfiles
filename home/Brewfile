@@ -13,5 +13,9 @@ install git
 install tree
 install webkit2png
 
+# Storage
+install mongodb
+install redis
+
 # Remove outdated versions from the cellar
 cleanup
