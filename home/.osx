@@ -83,7 +83,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
 defaults write NSGlobalDomain InitialKeyRepeat -int 25
 defaults write NSGlobalDomain KeyRepeat -int 2
 
-# Disable smart quotes, smart dashes and spelling - annoying when dealin with code
+# Disable smart quotes, smart dashes and spelling - annoying when dealing with code
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
