@@ -25,3 +25,4 @@ installcask rescuetime
 installcask instacast
 installcask steam
 installcask teamviewer
+installcask heroku-toolbelt
