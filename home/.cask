@@ -26,3 +26,4 @@ installcask instacast
 installcask steam
 installcask teamviewer
 installcask heroku-toolbelt
+installcask charles
