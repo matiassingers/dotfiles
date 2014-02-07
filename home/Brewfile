@@ -17,5 +17,8 @@ install webkit2png
 install mongodb
 install redis
 
+# Speedtest CLI
+install speedtest_cli
+
 # Remove outdated versions from the cellar
 cleanup
