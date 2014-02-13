@@ -9,6 +9,8 @@ tap homebrew/dupes
 install homebrew/dupes/grep
 
 # Install other useful binaries
+install grep
+install wget
 install git
 install tree
 install webkit2png
