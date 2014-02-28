@@ -22,5 +22,8 @@ install redis
 # Speedtest CLI
 install speedtest_cli
 
+# Git Extras - https://github.com/visionmedia/git-extras
+install git-extras
+
 # Remove outdated versions from the cellar
 cleanup
