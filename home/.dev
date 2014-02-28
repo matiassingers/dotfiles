@@ -25,6 +25,7 @@ npm install -g grunt-cli
 npm install -g grunt-init
 npm install -g jshint
 npm install -g cordova
+npm install -g steroids
 npm install -g currency
 
 # Sass installation
