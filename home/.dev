@@ -28,6 +28,13 @@ npm install -g cordova
 npm install -g steroids
 npm install -g currency
 
+npm install -g pretty-bytes
+npm install -g gzip-size
+
+# CSS tools
+npm install -g parker
+npm install -g recess
+
 # Sass installation
 sudo gem install sass --pre
 sudo gem install compass --pre
