@@ -27,6 +27,7 @@ npm install -g jshint
 npm install -g cordova
 npm install -g steroids
 npm install -g currency
+npm install -g ios-sim
 
 npm install -g pretty-bytes
 npm install -g gzip-size
