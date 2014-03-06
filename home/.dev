@@ -12,7 +12,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Install NVM
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
-# Install Node.js v0.10.24
+# Install Node.js versions
 nvm install v0.8.26
 nvm install v0.9.12
 nvm install v0.10.24
@@ -21,16 +21,21 @@ nvm alias default v0.10.24
 
 # Install required NPM packages
 npm install -g bower
-npm install -g grunt-cli
-npm install -g grunt-init
 npm install -g jshint
+
+# iOS/hybrid app development
 npm install -g cordova
 npm install -g steroids
-npm install -g currency
 npm install -g ios-sim
 
+# CLI tools
 npm install -g pretty-bytes
 npm install -g gzip-size
+
+# Build systems
+npm install -g gulp
+npm install -g grunt-cli
+npm install -g grunt-init
 
 # Forever
 npm install -g forever
@@ -39,6 +44,6 @@ npm install -g forever
 npm install -g parker
 npm install -g recess
 
-# Sass installation
+# Sass + Compass installation
 sudo gem install sass --pre
 sudo gem install compass --pre
