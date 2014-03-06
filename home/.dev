@@ -32,6 +32,9 @@ npm install -g ios-sim
 npm install -g pretty-bytes
 npm install -g gzip-size
 
+# Forever
+npm install -g forever
+
 # CSS tools
 npm install -g parker
 npm install -g recess
