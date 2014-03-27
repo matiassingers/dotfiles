@@ -45,11 +45,14 @@ npm install -g parker
 npm install -g recess
 npm install -g stylestats
 
-# Sass + Compass installation
 
 # Ruby related installations
 # RVM
 \curl -sSL https://get.rvm.io | bash -s stable --ruby=2.1.1
 source ~/.rvm/scripts/rvm
+
+# Sass installation
 sudo gem install sass --pre
-sudo gem install compass --pre
+
+# Jekyll installation
+sudo gem install jekyll
