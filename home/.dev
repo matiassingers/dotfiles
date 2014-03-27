@@ -43,6 +43,7 @@ npm install -g forever
 # CSS tools
 npm install -g parker
 npm install -g recess
+npm install -g stylestats
 
 # Sass + Compass installation
 sudo gem install sass --pre
