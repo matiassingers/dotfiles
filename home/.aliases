@@ -172,3 +172,6 @@ alias c='clear'
 
 # Whiteboard image clean - https://gist.github.com/lelandbatey/8677901
 alias whiteboard='convert $1 -morphology Convolve DoG:15,100,0 -negate -normalize -blur 0x1 -channel RBG -level 60%,91%,0.1 $2'
+
+# youtube-dl audio - http://rg3.github.io/youtube-dl/
+alias yt-audio='youtube-dl --extract-audio --audio-format mp3'
