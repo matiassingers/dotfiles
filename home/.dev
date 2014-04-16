@@ -45,6 +45,9 @@ npm install -g parker
 npm install -g recess
 npm install -g stylestats
 
+# Fuck you killing of processes - https://github.com/robotlolita/fuck-you
+npm install -g fuck-you
+
 # Ruby related installations
 # RVM
 \curl -sSL https://get.rvm.io | bash -s stable --ruby=2.1.1
