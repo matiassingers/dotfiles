@@ -21,6 +21,7 @@ install ffmpeg
 # Storage
 install mongodb
 install redis
+install postgresql
 
 # Speedtest CLI
 install speedtest_cli
