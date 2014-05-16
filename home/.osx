@@ -454,7 +454,7 @@ gprefs='~/Library/Preferences/.GlobalPreferences.plist'
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in "Activity Monitor" "Dock" "Finder" "Messages" "Safari" "SystemUIServer" "Terminal" "Twitter";
+for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Messages" "Safari" "SystemUIServer" "Terminal" "Twitter";
     do
     killall "${app}" > /dev/null 2>&1
 done
