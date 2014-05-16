@@ -438,6 +438,18 @@ defaults write com.hegenberg.BetterSnapTool BSTTitlebarDoubleclick -int 0
 defaults write com.hegenberg.BetterSnapTool BSTCornerRoundness -float 5.5
 defaults write com.hegenberg.BetterSnapTool recognitionArea -float 7.5
 
+
+###############################################################################
+# GlobalPreferences                                                           #
+###############################################################################
+gprefs='~/Library/Preferences/.GlobalPreferences.plist'
+
+# Wipes the default substitution list and creates a new blank one.
+/usr/libexec/PlistBuddy -c 'Delete NSUserDictionaryReplacementItems' $gprefs
+/usr/libexec/PlistBuddy -c 'Add NSUserDictionaryReplacementItems array' $gprefs
+# Merge text substitutions from previous backup.
+/usr/libexec/PlistBuddy -c "Merge $(pwd)/etc/osx-text-substitutions.plist NSUserDictionaryReplacementItems" $gprefs
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
