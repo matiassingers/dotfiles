@@ -438,6 +438,16 @@ defaults write com.hegenberg.BetterSnapTool BSTTitlebarDoubleclick -int 0
 defaults write com.hegenberg.BetterSnapTool BSTCornerRoundness -float 5.5
 defaults write com.hegenberg.BetterSnapTool recognitionArea -float 7.5
 
+# Register default hotkeys
+defaults write com.hegenberg.BetterSnapTool registeredHotkeys -array-add "{
+    0={keyCode=126;modifiers=8391168};
+    1={keyCode=124;modifiers=8395264};
+    2={keyCode=123;modifiers=8391168};
+    4={keyCode=124;modifiers=8391168};
+    10={keyCode=125;modifiers=8391168};
+    17={keyCode=8;modifiers=6656};
+    18={keyCode=124;modifiers=8394752}
+}"
 
 ###############################################################################
 # GlobalPreferences                                                           #
