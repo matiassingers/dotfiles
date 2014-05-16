@@ -380,6 +380,9 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 defaults write com.google.Chrome NSUserKeyEquivalents -dict-add "Bookmark This Page..." -string "@$d"
 defaults write com.google.Chrome.canary NSUserKeyEquivalents -dict-add "Bookmark This Page..." -string "@$d"
 
+# Bring up Chrome Extensions via ⌘E (Window → Extensions)
+defaults write com.google.Chrome NSUserKeyEquivalents "{ Extensions = "@$e"; }"
+
 ###############################################################################
 # Sublime Text                                                                #
 ###############################################################################
