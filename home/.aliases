@@ -175,3 +175,6 @@ alias whiteboard='convert $1 -morphology Convolve DoG:15,100,0 -negate -normaliz
 
 # youtube-dl audio - http://rg3.github.io/youtube-dl/
 alias yt='youtube-dl --extract-audio --audio-format mp3'
+
+# gitjk - https://github.com/mapmeld/gitjk
+alias gitjk='history 10 | tail -r | gitjk_cmd'
