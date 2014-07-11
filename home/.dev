@@ -44,6 +44,7 @@ npm install -g forever
 npm install -g parker
 npm install -g recess
 npm install -g stylestats
+npm install -g colorguard
 
 # Fuck you killing of processes - https://github.com/robotlolita/fuck-you
 npm install -g fuck-you
