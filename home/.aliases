@@ -178,3 +178,7 @@ alias yt='youtube-dl --extract-audio --audio-format mp3'
 
 # gitjk - https://github.com/mapmeld/gitjk
 alias gitjk='history 10 | tail -r | gitjk_cmd'
+
+# Google Public DNS fix
+alias dns-fix='sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4'
+alias dns-reset='sudo networksetup -setdnsservers Wi-Fi empty'
