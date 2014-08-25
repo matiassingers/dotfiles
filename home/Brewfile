@@ -8,6 +8,9 @@ upgrade
 tap homebrew/dupes
 install homebrew/dupes/grep
 
+# bash-completion
+install bash-completion
+
 # Install other useful binaries
 install grep
 install wget
