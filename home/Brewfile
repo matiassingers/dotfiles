@@ -32,5 +32,8 @@ install speedtest_cli
 # Git Extras - https://github.com/visionmedia/git-extras
 install git-extras
 
+# terminal-notifier - replacing growlnotify
+install terminal-notifier
+
 # Remove outdated versions from the cellar
 cleanup
