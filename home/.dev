@@ -69,3 +69,7 @@ npm install -g gitjk
 
 # github changelog generator
 npm install -g github-changes
+
+# yeoman generators
+npm install -g generator-basic-project
+npm install -g generator-simple-node-package
