@@ -66,3 +66,6 @@ sudo chmod a+x /usr/local/bin/youtube-dl
 
 # gitjk - undo git commands
 npm install -g gitjk
+
+# github changelog generator
+npm install -g github-changes
