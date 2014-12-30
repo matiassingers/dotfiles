@@ -365,3 +365,22 @@ function clone {
 
   git clone $url $repo && cd $repo && subl .;
 }
+
+# https://github.com/stephenplusplus/dots/blob/e280901d34ba066be1b8283b2808375314697ba9/.bash_profile#L21-L42
+# create a play directory.
+# - arg - (optional) name of a generator
+#
+# usage:
+#   $ play
+#       ..creates a directory
+#       ..cds into it
+
+function play {
+  cd ~/dev/play
+  if [ $1 ]
+  then
+    mkdir $1-$[($RANDOM % 13843) + 1] && cd $_
+  else
+    mkdir yeah-$[($RANDOM % 13843) + 1] && cd $_
+  fi
+}
