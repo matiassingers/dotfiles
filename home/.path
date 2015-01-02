@@ -1,2 +1,5 @@
 ### RVM
 PATH=$PATH:$HOME/.rvm/bin
+
+### Heroku Toolbelt
+PATH=$PATH:/usr/local/heroku/bin
