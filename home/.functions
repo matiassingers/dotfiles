@@ -384,3 +384,9 @@ function play {
     mkdir yeah-$[($RANDOM % 13843) + 1] && cd $_
   fi
 }
+
+# originally from https://gist.github.com/mafintosh/405048d304fbabb830b2
+npm () {
+  ([ "$1" != "publish" ] || dependency-check .) && command npm "$@"
+}
+

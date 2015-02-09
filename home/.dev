@@ -73,3 +73,6 @@ npm install -g github-changes
 # yeoman generators
 npm install -g generator-basic-project
 npm install -g generator-simple-node-package
+
+# module development
+npm install -g dependency-check
