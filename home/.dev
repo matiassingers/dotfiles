@@ -60,10 +60,6 @@ sudo gem install sass --pre
 # Jekyll installation
 sudo gem install jekyll
 
-# youtube-dl
-sudo curl https://yt-dl.org/downloads/2014.04.07.4/youtube-dl -o /usr/local/bin/youtube-dl
-sudo chmod a+x /usr/local/bin/youtube-dl
-
 # gitjk - undo git commands
 npm install -g gitjk
 
