@@ -35,5 +35,8 @@ install git-extras
 # terminal-notifier - replacing growlnotify
 install terminal-notifier
 
+# youtube-dl
+install youtube-dl
+
 # Remove outdated versions from the cellar
 cleanup
