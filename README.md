@@ -19,7 +19,7 @@ agree
 ### Homebrew
 Also known as the "the missing package manager for OS X" [Homebrew](http://brew.sh/) is essential for a lot of the next operations
 ```bash
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 ```
 
