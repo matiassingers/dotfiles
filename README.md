@@ -65,7 +65,7 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ```
 
 ### Setup development environment
-Installs different version of [NodeJS](http://nodejs.org/), required NPM packages, [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/)
+Installs different version of [NodeJS](http://nodejs.org/), required NPM packages and [Sass](http://sass-lang.com/).
 
 ```bash
 ./.dev
